@@ -45,7 +45,7 @@ metadata:
     kform.dev/resource-type: kubernetes_manifest 
     kform.dev/resource-id: ipclaim
 spec:
-  networkInstance: input.context[0].data.networkInstance
+  index: input.context[0].data.networkInstance
   selector:
     matchLabels:
       inv.kuid.dev/network: input.context[0].data.network
