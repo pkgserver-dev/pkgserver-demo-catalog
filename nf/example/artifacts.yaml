@@ -27,8 +27,8 @@ metadata:
   namespace: default
   annotations:
     kform.dev/block-type: provider
-spec: 
-  configPath: "/Users/henderiw/.kube/config"
+#spec: 
+#  configPath: "/Users/henderiw/.kube/config"
 
 
 ---
